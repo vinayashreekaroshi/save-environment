@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate</title>
+    <style>
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f7ee;        
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      }
+      .nav {
+        display:flex;
+        align-items:  center;
+        justify-content:   space-between;
+        background-color:  rgb(107, 222, 107);
+        padding: 10px 20px;
+      }
+      .navbar-links {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+      }
+      .web-logo img {
+        width:80px;
+        height:80px;
+        border-radius:50%;
+        object-fit:cover;
+      }
+      .navbar-links a {
+        color:rgba(0, 0, 0, 0.705);
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+      }
+      p{
+        color: black(0, 0, 0, 0.705);
+      }
+      .mainbox {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+      }
+      .container {
+        display:flex;
+        align-items:  center;
+        justify-content:space-between;
+        background-color: rgb(107, 222, 107);
+        border-radius: 15px;
+        padding: 30px;
+        max-width:1000px;
+        width: 100%;
+        box-sizing: border-box;
+        gap:20px;
+      }
+      .textbox {
+        flex: 3;
+        color:black;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .join-btn {
+        background-color:rgb(107, 222, 107);
+        color: white;
+        border:  none;
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-top: 15px;
+
+      }
+      h1 {
+        color:rgb(5, 122, 19);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      p{
+        color: black(0, 0, 0, 0.705);
+      }
+      .donate-box {
+        background:white;
+        border-radius:15px;
+        box-shadow:0 4px 15px rgba(0,0,0,0.1);
+        width: 350px;
+        padding:30px;
+        text-align:center;
+      }
+     select {
+        width:  90%;
+        padding:10px;
+        margin:10px 0;
+        border-radius:8px;
+        border:1px solid #ccc;
+        outline:  none;
+      }
+      button{
+        width:35%;
+        background:rgba(50, 137, 50, 0.649);
+        color:aliceblue(107, 222, 107);
+        padding:15px;
+        border:black;
+        font-size:15px;
+        cursor:  pointer;
+      }
+      .box {
+        display:flex;
+        align-items:  center;
+        justify-content:space-between;
+        background-color: rgb(107, 222, 107);
+        border-radius: 15px;
+        padding: 30px;
+        max-width:500px;
+        width: 700%;
+        box-sizing: border-box;
+        gap:20px;
+      }
+    </style>
+  </head>
+<body>
+  <!--navbar menu-->
+  <nav class="nav">
+    <div class="web-logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqa60oFmjBcSeF7WOpRFmnf_gCUa7zO3QuGA&s" alt="Nature Logo">
+    </div>
+    <ul class="navbar-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Section -->
+   <center><section class="mainbox"></section>
+   <div class="box">
+    <div class="textbox">
+      <div class="donate-box">
+      <h2>Support Our Green Mission</h2>
+      <p>Every small contribution helps us plant more trees and protect our planet.</p>
+
+        <form>
+          <input type="text" placeholder="Full Name" required><br>
+          <input type="email" placeholder="Email Address" required><br>
+          <select>
+            <option value="">Select Donation Type</option>
+            <option>Tree Plantation</option>
+            <option>Plastic free awareness</option>
+          </select><br>
+          <input type="number" placeholder="Amount (₹)" required><br>
+          <button type="submit">Donate Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </section></center>
+  <!--footer section-->
+  <footer>
+    <p><b>Contact us</b></p>
+    <p>Email:<a href="saveenvironment@gmail.com">saveenvironment</a></p> <!--dummy-->
+    <p>Phone no: ‪+91 1256349870‬</p>
+    
+    <p>© 2025 Save Environment | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
